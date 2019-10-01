@@ -51,7 +51,7 @@ class Clients extends Component {
               <thead className="thead-inverse">
                 <tr>
                   <th>Name</th>
-                  <th>Email</th>
+                  <th className="d-none d-md-block">Email</th>
                   <th>Balance</th>
                   <th />
                 </tr>
@@ -62,7 +62,7 @@ class Clients extends Component {
                     <td>
                       {client.firstName} {client.lastName}
                     </td>
-                    <td>{client.email}</td>
+                    <td className="d-none d-md-block">{client.email}</td>
                     <td>${parseFloat(client.balance).toFixed(2)}</td>
                     <td>
                       <Link

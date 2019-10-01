@@ -2,6 +2,7 @@
   "name": "clientpanel",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "classnames": "^2.2.6",
     "express": "^4.17.1",
@@ -18,6 +19,7 @@
     "redux-firestore": "^0.9.0"
   },
   "scripts": {
+    "start": "react-scripts start",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

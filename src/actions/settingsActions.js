@@ -3,7 +3,6 @@ import {
   DISABLE_BALANCE_ON_EDIT,
   ALLOW_REGISTRATION
 } from './types';
-import Settings from '../components/settings/Settings';
 
 export const setDisableBalanceOnAdd = () => {
   // Get Settings from localStorage

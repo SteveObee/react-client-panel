@@ -45,7 +45,7 @@ class Login extends Component {
               ) : null}
               <form onSubmit={this.onSubmit}>
                 <div className="form-group">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">Email (test@test.com)</label>
                   <input
                     type="text"
                     name="email"
@@ -56,7 +56,7 @@ class Login extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="password">Password</label>
+                  <label htmlFor="password">Password (123456)</label>
                   <input
                     type="password"
                     name="password"
