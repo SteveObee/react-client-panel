@@ -4,22 +4,25 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "express": "^4.17.1",
     "firebase": "^5.8.5",
+    "grpc": "^1.24.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^5.1.1",
-    "react-redux-firebase": "^2.2.6",
+    "react-redux-firebase": "^2.4.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-auth-wrapper": "^2.1.0",
-    "redux-firestore": "^0.7.0"
+    "redux-firestore": "^0.9.0"
   },
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
