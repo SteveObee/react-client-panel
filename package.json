@@ -1,8 +1,10 @@
 {
   "name": "clientpanel",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "server.js",
+  "author": "Stephen Obee",
+  "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.6",
     "express": "^4.17.1",
@@ -24,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
